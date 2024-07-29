@@ -101,3 +101,11 @@ border: 1px ;
 .third-accordian-border{
   border: 1px solid #1EADB6;
 }
+.border-left{
+top:0;
+left: 0;
+}
+.border-right{
+bottom: 0;
+right: 0;
+}
