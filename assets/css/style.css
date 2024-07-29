@@ -1,41 +1,45 @@
 @import url(./root.css);
-.question  { background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+.question {
+  background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;}
-  .accordion-heading{
-    font-family: Poppins;
-font-size: 48px;
-
-line-height: 72px;
-color: white;
-
-  }
-  .accordion-button{
-    box-shadow: none !important;
+  color: transparent;
 }
-.accordion-item{
-    border: none !important;
-}
+.accordion-heading {
+  font-family: Poppins;
+  font-size: 48px;
 
-.font-600-18{
-    font-size: 18px;
-    font-weight: 600;
+  line-height: 72px;
+  color: white;
 }
-.font-400-18{
-    font-size: 18px;
-    font-weight: 400;
+.accordion-button {
+  box-shadow: none !important;
+}
+.accordion-item {
+  border: none !important;
 }
 
-.bg-blur{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
-
+.font-600-18 {
+  font-size: 18px;
+  font-weight: 600;
 }
-.bg-img-sec-2{
-    background-image:url(/assets/image/sec-2-bg-img.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.font-400-18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bg-blur {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  ) !important;
+}
+.bg-img-sec-2 {
+  background-image: url(/assets/image/sec-2-bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .box-1 {
   width: 922px;
@@ -46,7 +50,6 @@ color: white;
   background: var(--lightyellow) !important;
 }
 .amet {
-
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -54,11 +57,19 @@ color: white;
   color: var(--black);
 }
 .enim-text {
-  
   font-size: 18px;
   font-weight: 400;
   line-height: 32.4px;
   text-align: left;
   color: var(--black);
   opacity: 70%;
+}
+.first-accordian{
+  background-image: url(/assets/images/first-accordian-bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.second-accordian{
+  background-color: yellow;
 }
