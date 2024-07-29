@@ -1,96 +1,212 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="first-accordian">
         <div class="container">
             <div class="row">
-                <p class="accordion-heading text-center font-weight-bold">Frequently Asked <span class="question">Questions</span></p>
-               
+                <p class="accordion-heading text-center font-weight-bold">Frequently Asked <span
+                        class="question">Questions</span></p>
+
                 <section class=" py-5 bg-img-sec-2">
-        <div class="container w-75">
+                    <div class="container w-75">
+                        <div class="row">
+
+                            <div class="accordion accordion-flush " id="accordionFlushExample">
+                                <div class="accordion-item border-0 bg-blur mb-2">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-blur text-white font-400-18"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1"
+                                            aria-expanded="false" aria-controls="flush-collapse1">
+                                            Q.1 Lectus tristique turpis id?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse1" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 bg-blur mb-2">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed text-white bg-blur font-400-18"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2"
+                                            aria-expanded="false" aria-controls="flush-collapse2">
+                                            Q.2 Ac pharetra nisl nec dignissim odio sed justo velit nisl.?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse2" class="accordion-collapse collapse text-white"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Eu est malesuada massa nec pharetra.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 bg-blur mb-2">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed text-white bg-blur font-400-18"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3"
+                                            aria-expanded="false" aria-controls="flush-collapse3">
+                                            Q.3 Arcu tristique semper neque sed condimentum.?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse3" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 bg-blur mb-2">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button bg-blur collapsed text-white font-400-18"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4"
+                                            aria-expanded="false" aria-controls="flush-collapse4">
+                                            Q.4 Nam imperdiet iaculis vel felis commodo?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse4" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 bg-blur mb-2">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button bg-blur collapsed text-white font-400-18"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5"
+                                            aria-expanded="false" aria-controls="flush-collapse5">
+                                            Q.5 Quam faucibus sagittis sed ultrices?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse5" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="second-accordian">
+        <div class="container">
             <div class="row">
-               
-                <div class="accordion accordion-flush " id="accordionFlushExample">
-                    <div class="accordion-item border-0 bg-blur mb-2">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-blur text-white font-400-18" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false"
-                                aria-controls="flush-collapse1">
-                                Q.1 Lectus tristique turpis id?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse1" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                <h1 class="text-center pt-5 pb-4">FAQ</h1>
+                <div class="d-flex align-items-center justify-content-center box-parents">
+                    <div class="accordion h-100 w-50" id="accordionExample">
+                        <div class="accordion-item boxs">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button amet boxs" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body boxs">
+                                    <p class="enim-text">
+                                        Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                        pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                                        lectus nulla tincidunt egestas.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 bg-blur mb-2">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed text-white bg-blur font-400-18" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false"
-                                aria-controls="flush-collapse2">
-                                Q.2 Ac pharetra nisl nec dignissim odio sed justo velit nisl.?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse2" class="accordion-collapse collapse text-white"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+                        <div class="accordion-item boxs">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button amet boxs" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                                    Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                                </button>
+                            </h2>
+                            <div id="collapsetwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body boxs">
+                                    <p class="enim-text">
+                                        Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                        pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                                        lectus nulla tincidunt egestas.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 bg-blur mb-2">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed text-white bg-blur font-400-18" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapse3"
-                                aria-expanded="false" aria-controls="flush-collapse3">
-                                Q.3 Arcu tristique semper neque sed condimentum.?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse3" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+
+                        <div class="accordion-item boxs">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button amet boxs" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                                    Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                                </button>
+                            </h2>
+                            <div id="collapsethree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body boxs">
+                                    <p class="enim-text">
+                                        Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                        pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                                        lectus nulla tincidunt egestas.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 bg-blur mb-2">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button bg-blur collapsed text-white font-400-18" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false"
-                                aria-controls="flush-collapse4">
-                                Q.4 Nam imperdiet iaculis vel felis commodo?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse4" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+
+                        <div class="accordion-item boxs">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button amet boxs" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body boxs">
+                                    <p class="enim-text">
+                                        Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                        pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                                        lectus nulla tincidunt egestas.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 bg-blur mb-2">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button bg-blur collapsed text-white font-400-18" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false"
-                                aria-controls="flush-collapse5">
-                                Q.5 Quam faucibus sagittis sed ultrices?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse5" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</div>
+
+                        <div class="accordion-item boxs">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button amet boxs" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body boxs">
+                                    <p class="enim-text">
+                                        Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                        pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                                        lectus nulla tincidunt egestas.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
