@@ -76,3 +76,28 @@
 .faq{
   color: white;
 }
+.third-accordian{
+  background-color: var(--black);
+}
+.third-accordian-box{
+  color: white !important;
+  background: transparent !important;
+  max-width: 1078px;
+border: 1px solid #1EADB6;
+
+border: 1px ;
+
+
+}
+.third-accordian{
+  background-image: url(/assets/images/third-section-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third-accoridan-button{
+  color: white !important;
+  border: 1px solid #1EADB6;
+}
+.third-accordian-border{
+  border: 1px solid #1EADB6;
+}
