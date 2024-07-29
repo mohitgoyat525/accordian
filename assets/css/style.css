@@ -1,0 +1,33 @@
+*{
+     background: black; */
+}
+.herosection-heading{
+font-family: Poppins;
+font-size: 48px;
+line-height: 72px;
+
+
+}
+.question{
+    color: linear-gradient(#815CC8 0%,#1BABFE 100%);
+}
+.accordion-item{
+    max-width: 1038px;
+}
+.accordion-button{
+    border: 3px solid !important;
+
+border-image: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+
+
+}
+.accordion-button:not(.collapsed){
+color: white;
+border: 3px solid;
+
+border-image: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+
+}
