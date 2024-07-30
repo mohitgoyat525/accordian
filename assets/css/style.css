@@ -119,3 +119,6 @@ left: -1px;
 bottom:  -1px;
 right: -2px;  
 }
+.green-arrow::after{
+  background-image: url(/assets/images/green-arrow.png) !important;
+}
