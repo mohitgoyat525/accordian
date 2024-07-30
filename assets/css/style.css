@@ -1,5 +1,6 @@
 @import url(./root.css);
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .question {
   background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
   -webkit-background-clip: text;
@@ -7,7 +8,7 @@
   color: transparent;
 }
 .accordion-heading {
-  font-family: Poppins;
+   font-family: "Poppins", sans-serif;
   font-size: 48px;
 
   line-height: 72px;
@@ -23,10 +24,12 @@
 .font-600-18 {
   font-size: 18px;
   font-weight: 600;
+   font-family: "Poppins", sans-serif;
 }
 .font-400-18 {
   font-size: 18px;
   font-weight: 400;
+   font-family: "Poppins", sans-serif;
 }
 
 .bg-blur {
@@ -51,6 +54,7 @@
   background: var(--lightyellow) !important;
 }
 .amet {
+   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -58,6 +62,7 @@
   color: var(--black);
 }
 .enim-text {
+   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32.4px;
@@ -100,9 +105,17 @@
 }
 .border-accordian {
   border: 1px solid #1eadb6 !important;
-  border-top-left-radius: 41px !important;
-  border-bottom-right-radius: 41px !important;
+  border-top-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
 }
 .down-arrow::after {
   background-image: url(/assets/images/arrow.png) !important;
+}
+.border-left{
+top: -1px;
+left: -1px;  
+}
+.border-right{
+bottom:  -1px;
+right: -2px;  
 }
