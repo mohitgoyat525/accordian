@@ -25,6 +25,7 @@
   font-size: 18px;
   font-weight: 600;
    font-family: "Poppins", sans-serif;
+   padding-bottom: 0;
 }
 .font-400-18 {
   font-size: 18px;
@@ -131,4 +132,22 @@ right: -2px;
 }
 .section-two-accordion::after{
   background-image: url(/assets/images/svg/plus-large-svgrepo-com.svg) !important;
+}
+.font-18{
+  font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+opacity: 70%;
+color: #ffffff;
+}
+.font-16-400{
+   font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-top: 0;
+
 }
