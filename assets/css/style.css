@@ -108,6 +108,9 @@
   border-top-left-radius: 40px !important;
   border-bottom-right-radius: 40px !important;
 }
+.border-accordian:active{
+  box-shadow:  1px solid #1EADB6;
+}
 .down-arrow::after {
   background-image: url(/assets/images/arrow.png) !important;
 }
@@ -121,4 +124,13 @@ right: -2px;
 }
 .green-arrow::after{
   background-image: url(/assets/images/green-arrow.png) !important;
+}
+.text-black{
+  color: black !important;
+}
+.section-two-accordion:not(.collapsed)::after{
+  background-image:url(/assets/images/svg/minus-svgrepo-com.svg) !important ;
+}
+.section-two-accordion::after{
+  background-image: url(/assets/images/svg/plus-large-svgrepo-com.svg) !important;
 }
