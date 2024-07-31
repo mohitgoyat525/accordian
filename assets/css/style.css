@@ -151,3 +151,6 @@ text-align: left;
 padding-top: 0;
 
 }
+.border-accordian:active{
+  box-shadow: 0px 1px 2px 3px #1eadb6 !important;
+}
