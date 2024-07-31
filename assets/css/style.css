@@ -108,11 +108,9 @@
   border-top-left-radius: 40px !important;
   border-bottom-right-radius: 40px !important;
 }
-.border-accordian:active{
-  box-shadow:  1px solid #1EADB6;
-}
+
 .down-arrow::after {
-  background-image: url(/assets/images/arrow.png) !important;
+  background-image: url(/assets/images/svg/down-arroow.svg) !important;
 }
 .border-left{
 top: -1px;
@@ -123,7 +121,7 @@ bottom:  -1px;
 right: -2px;  
 }
 .green-arrow::after{
-  background-image: url(/assets/images/green-arrow.png) !important;
+  background-image: url(/assets/images/svg/new-green-arrow.svg) !important;
 }
 .text-black{
   color: black !important;
