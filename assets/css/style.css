@@ -39,12 +39,12 @@
     rgba(255, 255, 255, 0.03) 100%
   ) !important;
 }
-.bg-img-sec-2 {
-  background-image: url(/assets/image/sec-2-bg-img.png);
+/* .bg-img-sec-2 {
+  background-image: url(/assets/images/png/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .box-1 {
   width: 922px;
   height: 100%;
@@ -71,7 +71,7 @@
   opacity: 70%;
 }
 .first-accordian {
-  background-image: url(/assets/images/first-accordian-bg-img.png);
+  background-image: url(/assets/images/png/first-accordian-bg-img.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@
   border: 1px;
 }
 .third-accordian {
-  background-image: url(/assets/images/third-section-bg.png);
+  background-image: url(/assets/images/png/third-section-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
