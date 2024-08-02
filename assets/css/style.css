@@ -303,47 +303,6 @@ padding-top: 0;
 .pb-100 {
   padding-bottom: 100px;
 }
-.slider-box-two-sec2 {
-  width: 946px;
-  height: 253px;
-  top: 303px;
-  left: 247px;
-  gap: 0px;
-  border-radius: 20px;
-  opacity: 0px;
-  background: #0389ff1f;
-}
-.center-shadow {
-  top: 58%;
-  left: 45%;
-  transform: translate(-58%, -45%);
-}
-.second-slider {
-  background: #020d15;
-  min-height: 100vh;
-}
-.box-text {
-  font-family: Plus Jakarta Sans;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
-  color: #fbfdff;
-}
-.box-last-text {
-  font-family: Plus Jakarta Sans;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 19.6px;
-  text-align: center;
-  color: #fbfdff;
-}
-.pl-pr-430 {
-  padding-left: 430px;
-  padding-right: 430px;
-}
 
 .profile-size {
   width: 50px;
@@ -598,10 +557,11 @@ padding-top: 0;
 
 .slider-info,
 .slider-footer {
-  
+  font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
+    color: #FBFDFF;
 }
 
 .background-blue {
@@ -671,4 +631,28 @@ section .slider-box-3 .slick-next {
 }
 section .slider-box-3 .slick-dots{
   bottom: -90px;
+}
+.slider-three-heading{
+  font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 44px;
+font-weight: 500;
+line-height: 55.44px;
+color: #FBFDFF;
+
+}
+.happy-customer{
+font-family: "Rubik", sans-serif;
+font-size: 35px;
+font-weight: 500;
+line-height: 50px;
+color: #0B132A;
+
+
+}
+.these-are{
+font-family: "Rubik", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+color: #4F5665;
 }
