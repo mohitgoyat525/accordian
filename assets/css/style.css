@@ -661,6 +661,14 @@ section .slider-box-3 .slick-next {
   left: 50%;
   transform: translate(-50% ,-50%);
 } 
+.slick-current .slider-sm-box p{
+  color: white !important;
+  transition: all 300ms linear;
+}
 
-
-
+.pb-100{
+  padding-bottom: 100px;
+}
+section .slider-box-3 .slick-dots{
+  bottom: -90px;
+}
