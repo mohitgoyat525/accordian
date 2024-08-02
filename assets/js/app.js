@@ -90,3 +90,10 @@ $(".sliderbox-two-parent").slick({
     },
   ],
 });
+$(".slider-box-3").slick({
+  centerMode: true,
+  centerPadding: "60px",
+  slidesToShow: 3,
+  dots: true,
+  variableWidth: true,
+});
