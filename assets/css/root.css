@@ -1,4 +1,18 @@
+
 :root{
-    --lightyellow: #fff03f;
+    /* font-size */
+    --fs-24:24px;
+    --fs-48:48px;
+    --fs-16:16px;
+    /* font-weight */
+    --fw-400:400;
+    /* color */
+    --dark-white: #FCFFFE;
+        --dark-blue:#0B132A;
+    --grey:#4F5665;
+    --red:#F53855;
+     --whitee:#FBFBFB;
+  --lightyellow: #fff03f;
   --black:#000000;
 }
+
